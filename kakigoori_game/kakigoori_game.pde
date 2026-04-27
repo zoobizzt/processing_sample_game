@@ -53,7 +53,8 @@ Gif titleGif, kanseiGif;
 
 void setup() {
   size(600, 700);
-  font = loadFont("marukiya-48.vlw");
+  //font = loadFont("marukiya-48.vlw");
+  font = createFont("DonguriDuel.ttf",32);
   textFont(font);
 
   cup = new Cup();
